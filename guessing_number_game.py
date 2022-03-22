@@ -43,7 +43,8 @@ def game():
         turn=check_answer(guess_number,answer,turn)
         if turn==0:
             print("you runout of the guess, you lose.")
-            return
+            
+    return 
 game()
 
 
