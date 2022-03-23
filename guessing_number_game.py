@@ -1,4 +1,5 @@
 from random import randint
+from turtle import clear
 number_easy=10
 number_hard=5
 
@@ -42,7 +43,11 @@ def game():
         turn=check_answer(guess_number,answer,turn)
         if turn==0:
             print("you runout of the guess, you lose.")
-            return
+            return 
+        elif guess_number==answer:
+            clear
+            break
+
 game()
 
 
