@@ -1,5 +1,4 @@
 from random import randint
-from re import X
 number_easy=10
 number_hard=5
 
